@@ -3,6 +3,9 @@ os:
 #    - osx removed as there are problems with Travis installing Python
 language: python
 sudo: false
+arch: 
+    - amd64
+    - arm64
 python:
 #    - "2.6" removed as now too old to support
     #- "2.7"
