@@ -11,8 +11,8 @@ python:
     #- "2.7"
 #    - "3.2" removed because Coveralls/coverage 4.0 fails on 3.2
 #    - "3.3" removed as Travis apparently can't install it in a VM
-    #- "3.6"
-    #- "3.7"
+    - "3.6"
+    - "3.7"
     - "3.8"
     #- "pypy"
 #             pypy was removed temporarily as coveralls isn't always fully compatible on Travis ...
